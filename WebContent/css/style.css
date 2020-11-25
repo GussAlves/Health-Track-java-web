@@ -1,0 +1,406 @@
+﻿﻿html,body {
+        background: rgba(145, 153, 153, 0.300);
+        font-family: 'Itim', cursive;
+        margin: 1%;
+
+    }
+    .btn{
+         border-radius: 24px;
+    }
+    
+    .breadcrumb {
+        background: #4b6cb7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1828488e, #4b6cb78e);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1828488e, #4b6cb78e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding: 1.5%;
+        border-radius: 10px;
+        margin-top: 2px;
+        border: solid rgba(255, 255, 255, 0.363) 1px;
+    }
+
+    .navbar-light {
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.603) !important;
+    }
+
+    .logo-pequena {
+        width: 80%;
+    }
+    
+    header {
+        border-radius: 24px;
+    }
+    
+    #telalogin {
+        border-top: 10%;
+    }
+
+    .logo-login {
+        width: 85vw;
+        margin: 5%;
+        margin-left: 10%;
+    }
+    
+    img {
+        height: auto;
+        width: 100%;
+        align-content: center;
+        
+    }
+
+    .run-icon {
+        margin-left: 25%;
+    }
+    
+    a.nav-link.active {
+        background-color:#4b6bb780 ;
+    }
+    
+    .logincentralizar {
+        display: block;   
+        width: 30%;
+    }
+
+    .tela-login {
+        text-align: -webkit-center;
+    }
+
+    .btn-success {
+        color: #fff;
+        background-color: #28a74680;
+        border-color: #28a74680;
+    }
+
+    .card-dash {
+        margin: 1%;
+        background: #4b6cb7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1828488e, #4b6cb78e);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1828488e, #4b6cb78e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-size: 80%;
+        color: white;
+        border-radius: 40px;
+        border: none;
+        border: solid rgba(255, 255, 255, 0.363) 1px;
+    }
+
+    .title-dash {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .card-title {
+        text-align: center;
+    }
+    
+    .btn-centralizar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card-header ul li.nav-item {
+        text-align: center;
+        
+    }
+
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        background: #4b6bb78f;
+        color: rgba(0,0,0,.5);
+    
+
+    }
+    
+
+    .nav-link {
+        color: rgba(66, 66, 66, 0.85) !important;
+    }
+
+
+   
+    canvas{
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        border: solid rgba(255, 255, 255, 0.363) 1px;
+        border-radius: 10px;
+        
+      }
+
+    .canva-model {
+        width: 90vw;
+        height: 90%;
+        background: lightslategray;
+        display: flex;
+        margin: 3%;
+        
+
+    }
+
+
+      @keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}
+      .chartjs-render-monitor{animation:chartjs-render-animation 1ms}
+      .chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{
+          position:absolute;
+          direction:ltr;
+          left:0;top:0;
+          right:0;
+          bottom:0;
+          overflow:hidden;
+          pointer-events:none;
+          visibility:hidden;
+          z-index:-1
+        }
+        .chartjs-size-monitor-expand>div{
+            position:absolute;
+            width:1000000px;
+            height:1000000px;
+            left:0;
+            top:0
+        }
+        .chartjs-size-monitor-shrink>div{
+            position:absolute;
+            width:200%;
+            height:200%;
+            left:0;
+            top:0}
+
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+        color: rgba(0,0,0,.5);
+       
+    }
+
+    .navbar-brand {
+        color: #4b6bb7 !important;
+        font-size: 150%;
+    }
+
+    .nav-link:hover {
+        background-color:#4b6bb780 ;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .run-icon {
+        max-width: 50%;
+    }
+
+    .navbar-nav .nav-link { 
+        border-radius: 5px;
+        margin: .5em;
+
+    }
+
+    .btn-calcular {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .tabela {
+        font-size: 90%;
+        text-align: center;
+    }
+
+    .tabela-box {
+        margin: .75em;
+    }
+
+    .table {
+        text-align: center;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .imc-control {
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+    }
+    
+
+    .form-select {
+        margin-left: 1%;
+    }
+
+    .card-atv {
+        border-radius: 10px;  
+    }
+
+    .nav-tabs {
+        border-bottom: none;
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+    .nav-tabs .nav-link {
+        border: transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        border-radius: 10px;
+        margin: 2px;
+    }
+
+    .card-columns {
+        padding: 2%;
+        border-radius: 30px;
+    }
+
+    .card-trasnparent {
+        background-color: transparent !important;
+    }
+
+    .card-dash-big {
+        border-radius: 5px;
+        border: none;
+        background: transparent;
+        
+    }
+
+    .btn-dash {
+        width: 90%;
+    }
+
+
+
+
+    @media (max-width: 767.98px) { 
+        .form-group {
+            margin: 1% !important;
+        }
+
+        .navbar-nav .nav-link {
+            border-radius: 5px;
+            margin: .5em;
+            padding: 2%;
+        }
+
+        .styled-table {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .btn-calcular {
+            margin-top: 2%;
+            margin-bottom: 2%;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .card {
+            border-radius: 10px;
+        }
+
+        .logo-login {
+            margin: 5%;
+            margin-left: 5%;
+        }
+    }
+
+    
+
+    .box-btn-registrar, .box-btn-alimento {
+        margin-left: 1%;
+        text-align: -webkit-center;
+    }
+
+    tfoot {
+        background-color: #17a3b8d0;
+    }
+    
+    label {
+        margin-bottom: .3rem;
+        margin-left: 1%;
+    }
+
+    .btn-outline-warning:hover {
+        color: white;
+    }
+    
+
+    .tfoot-tabela {
+        color: white;
+        font-weight: bold;
+    }
+
+    .btn-refeicao {
+        color: white;
+        padding: .5em;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        font-size: 96%;
+        background: rgba(53, 194, 74, 0.600);
+        border-color:rgba(53, 194, 74, 0.600);
+    }
+
+    .btn-refeicao:hover{
+        background: rgba(53, 194, 74, 0.600);
+        border-color:rgba(53, 194, 74, 0.600);
+        font-size: 100%;
+        color: white;
+    }
+
+    .btn-alimento {
+        padding: 6px;
+        font-size: 96%;
+    }
+
+    .btn-outline-info:hover {
+        background-color: #17a3b870;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+
+    .alimento {
+        width: 50%;
+    }
+
+    .tabela-box-refeicao {
+        margin: 1.5em;
+        background-color: white
+    }
+
+
+    .styled-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }    
+
+    .styled-table thead tr {
+        background-color:#17a3b8d0;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    .styled-table th,.styled-table td {
+        padding: 12px 15px;
+        text-align: center;
+    }
+
+    .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+    
+    .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    
+    .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #17a3b8d0;
+    }
+
+    .styled-table tbody tr.active-row {
+        font-weight: bold;
+        color: #17a3b8d0;
+    }
+
+    .card-subtitle {
+        margin-bottom: 5px;
+    }
+
+
+    
