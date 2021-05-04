@@ -1,7 +1,6 @@
 package br.com.htrack.controller;
 
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import javax.servlet.ServletException;
